@@ -1,8 +1,32 @@
 
 <template>
-  <HomeView />
+  <div>
+    <Alfred />
+    <Pedro />
+  </div>
 </template>
 
 <script setup>
-  import HomeView from './views/HomeView.vue'
+  import Alfred from './views/Alfred.vue'
+  import Pedro from './views/Pedro.vue'
 </script>
+
+<styles lang="scss">
+
+div {
+  font-weight: bold;
+}
+
+input {
+  margin: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.valid {
+  color: blue;
+}
+
+</styles>
